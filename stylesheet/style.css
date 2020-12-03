@@ -1,0 +1,464 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* navbar */
+
+#top-nav {
+  display: flex;
+}
+#navbarNavDropdown {
+  justify-content: flex-end;
+}
+.nav-link,
+.navbar-brand,
+.navbar-togglernavbar-toggler {
+  color: black;
+}
+
+/* doubt section css */
+
+.doubts-section-text {
+  display: flex;
+  flex-direction: column;
+  height: 10px;
+}
+.navbar-nav .nav-item {
+  margin-right: 30px;
+  font-weight: 700;
+}
+
+.navbar-nav .nav-item .nav-link {
+  color: #333333;
+}
+#logo {
+  width: 150px;
+  height: 35px;
+  margin-top: 8px;
+  margin-left: 20px;
+}
+.header-btn {
+  background-color: #db2424;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 11px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  justify-content: center;
+}
+
+.header-container {
+  margin-left: 36px;
+  margin-right: 36px;
+  margin-bottom: 90px;
+}
+
+.header-info-text {
+  margin: auto;
+}
+
+.header_text,
+.header_text span {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bolder;
+  text-align: center;
+}
+
+#frame {
+  border-width: 17px;
+  margin-top: 10px;
+  border-style: solid;
+  border-radius: 22px;
+  width: 100%;
+  height: 380px;
+  outline: none;
+  border-color: #db2424 #c20606 hsl(266, 66%, 39%) #1a0a61;
+}
+.doubt-text {
+  margin-bottom: 20px;
+}
+.doubt-text h1 {
+  margin-bottom: 30px;
+  font-weight: 900;
+}
+#top-nav {
+  margin-bottom: 20px;
+}
+
+.notes-img {
+  width: 60px;
+  height: 60px;
+  margin: auto;
+}
+
+.mile-image-holder {
+  height: 120px;
+}
+
+.notes-text {
+  text-align: center;
+  margin: auto;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+/* milestones css */
+
+.milestones-container {
+  margin: 0px 56px 90px 56px;
+}
+
+.bg-one {
+  background-color: lightsalmon;
+  height: 100px;
+  padding: 20px;
+  text-align: center;
+}
+
+.bg-two {
+  background-color: lightpink;
+  height: 100px;
+  padding: 20px;
+  text-align: center;
+}
+.bg-three {
+  background-color: lightgreen;
+  height: 100px;
+  padding: 20px;
+  text-align: center;
+}
+.bg-four {
+  background-color: lightblue;
+  height: 100px;
+  padding: 20px;
+  text-align: center;
+}
+.rounded-border {
+  border-radius: 0px 20px 20px 0px;
+  margin-right: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.doubts-heading {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bolder;
+  margin-left: 20px;
+  text-align: center;
+  margin-bottom: 25px;
+}
+.doubts-heading span {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bolder;
+}
+.doubts-icon {
+  width: 50px;
+  height: 50px;
+}
+.doubt-margin {
+  margin-top: 40px;
+}
+.books-img {
+  width: 380px;
+  height: 270px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+/* solve doubts section css */
+
+.doubt-section {
+  margin-bottom: 90px;
+}
+
+.three-images {
+  width: 200px;
+  height: 150px;
+}
+
+.three-div {
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.fa-chevron-right {
+  font-size: 25px;
+}
+.doubt-btn {
+  background-color: #db2424;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 11px;
+  text-align: center;
+}
+
+/* how it works section css */
+
+.work-section {
+  margin-bottom: 90px;
+}
+.work-heading {
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bolder;
+  color: blue;
+}
+
+/* live section css */
+
+.live-heading,
+.live-heading span {
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bolder;
+}
+#live-classes-frame {
+  padding: 14px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-top: 14px;
+  width: 100%;
+  height: 340px;
+  border-radius: 15px;
+  outline: none;
+}
+.live-section-wrapper {
+  margin: 0 20px;
+}
+.book-btn {
+  background-color: #db2424;
+  color: white;
+  border: none;
+  padding: 8px 18px;
+  border-radius: 11px;
+}
+.live-section {
+  margin-bottom: 90px;
+}
+.live-heading {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bolder;
+  color: blue;
+}
+
+/* jee and neet section css */
+
+.jee-heading,
+.jee-heading span {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bolder;
+  text-align: center;
+}
+.jee-section {
+  margin-bottom: 90px;
+}
+.carousel-indicators {
+  margin-bottom: -30px;
+}
+.carousel-indicators li {
+  background-color: black;
+}
+.card-text {
+  text-align: center;
+  padding: 50px 25px;
+}
+.card-img {
+  text-align: center;
+}
+.jee-iframe {
+  width: 100%;
+  padding: 14px 25px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: 1px solid black;
+  border-radius: 14px;
+  outline: none;
+}
+.jee-heading {
+  color: blue;
+}
+.jee-btn {
+  background-color: #db2424;
+  color: white;
+  border: none;
+  padding: 8px 18px;
+  border-radius: 11px;
+}
+
+/* Explore section css */
+
+.explore-heading {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bolder;
+  text-align: center;
+  color: blue;
+}
+.small-cards {
+  width: 200px;
+  height: 160px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  padding: 25px 0px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.all-subjects {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+.small-cards img {
+  width: 100px;
+  height: 75px;
+  margin-bottom: 20px;
+}
+
+/* explore section css */
+
+.explore-section {
+  margin-bottom: 90px;
+}
+.view-btn-container {
+  text-align: end;
+}
+.view-btn {
+  color: #c20606;
+}
+
+/* free access section css */
+
+.free-access-heading h1,
+.free-access-heading h1 span {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bolder;
+}
+.free-access-heading h1 span {
+  color: blue;
+}
+.free-access-heading {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.all-books {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+.free-access-section {
+  margin-bottom: 90px;
+}
+
+/* state board section css */
+
+.state-board-heading h1 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bolder;
+  color: #1a0a61;
+}
+.state-board-heading {
+  text-align: center;
+}
+.all-states {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+.state-board-section {
+  margin-bottom: 90px;
+}
+
+/* expert section css */
+
+.meet-expert-heading,
+.meet-expert-heading h1 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bolder;
+}
+.meet-expert-heading {
+  margin-bottom: 40px;
+  text-align: center;
+}
+.profile-container {
+  display: flex;
+  margin-bottom: 40px;
+  margin-right: 80px;
+}
+.expert-img img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-right: 15px;
+  margin-top: 25px;
+}
+.expert-text {
+  width: 250px;
+  height: 150px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 10px;
+}
+.meet-expert-section {
+  margin-bottom: 90px;
+}
+.four-profiles {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+.carousel-control-next,
+.carousel-control-prev {
+  width: 30px;
+  height: 30px;
+  margin-top: 180px;
+}
+
+/* student section css */
+
+.student-heading {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.student-heading h1 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bolder;
+}
+
+.profile-container-student {
+  display: flex;
+}
+.download-app-btn button {
+  background-color: #db2424;
+  color: white;
+  border: none;
+  padding: 8px 18px;
+  border-radius: 11px;
+}
+.download-app-btn {
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 90px;
+}
+.student-section-video {
+  width: 100%;
+  margin-bottom: 40px;
+}
+.card {
+  margin: 0px auto;
+  height: 400px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card-text {
+  padding: 0 !important;
+}
+.card-title {
+  font-weight: bold;
+  text-align: center;
+}
